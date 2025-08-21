@@ -55,9 +55,7 @@ def create_table(cursor,connection):
     print("Table created successfully.")
 
 def weather_app():
-    
     while True:
-       
         try:
             connection = psycopg2.connect(
             host = hostname,
